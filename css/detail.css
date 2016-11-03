@@ -1,0 +1,196 @@
+/*租房-详细页*/
+.header{
+    height:50px;
+    overflow: hidden;
+    background-color: #00AF65;
+}
+.header .options{
+    top:10px;
+    text-align: center;
+}
+.header .options ul{
+    margin-left:5px;
+    color:#fff;
+
+}
+.header .options ul li{
+    line-height: 1;
+}
+.header .options ul a{
+    font-size:10px;
+    font-weight: 100;
+    color:#fff;
+}
+.header .row{
+    height:100%;
+}
+.header .row>div:first-child{
+    margin-top:10px;
+}
+/*第二部分 图片轮播*/
+.carousels{
+    height:230px;
+    margin:0px;
+    padding:0 0 10px;
+    background: #f4f4f4;
+    border:1px solid #c5c5c5;
+}
+.carousels .carousel-inner>.item > img{
+    height:230px;
+    width:100%;
+    margin:0 auto;
+    max-width:400px;
+
+}
+.carousels img{
+    display:inline-block;
+    height:230px;
+}
+/*第三部分 内容区*/
+.content{
+    margin:0;
+}
+/*内容区第一行*/
+.content1{
+    margin:0;
+    background:#F9F9F9;
+    height:65px;
+    border-bottom:1px solid #ccc;
+}
+.content1 .con1{
+    padding:15px 0 0 15px;
+}
+.content1 .focus1{
+    height:100%;
+    text-align: center;
+    border-left:1px solid #ccc;
+    padding-top:25px;
+}
+/*内容区第 2 行*/
+.content2{
+    overflow: hidden;
+    padding:10px 5px;
+    border-bottom:1px solid #ccc;
+}
+.content2 div{
+    border-right:1px solid #ccc;
+}
+.content2>div:last-child{
+    border-right:none;
+}
+.content2 ul{
+    text-align: center;
+}
+/*内容区第 3 行*/
+.con-common{
+    margin:0px;
+    height:50px;
+    line-height: 50px;
+    padding-left:10px;
+    padding-right:10px;
+    border-bottom:1px solid #ccc;
+}
+.content5 .col-xs-4{
+    padding-left:0px;
+}
+.content8 .col-xs-8{
+    padding-left:0px;
+    position:relative;
+}
+.content8>span:last-child>a{
+   display: inline-block;
+    position: absolute;
+    right:5px;
+}
+
+/*第四部分*/
+.servers{
+     margin:0;
+ }
+.servers > .row-one{
+    height:45px;
+    line-height: 45px;
+    border-top:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+    margin-top:5px;
+    padding-left: 10px;
+}
+.servers>.row-three{
+    height:80px;
+    padding:15px 10px;
+    position: relative;
+    border-bottom: 1px solid #ccc;
+}
+.servers>.row-three img{
+    width:30px;
+    height:40px;
+}
+.servers>.row-three .phone{
+    position: absolute;
+    right:20px;
+    top:20px;
+}
+/*第五部分客户看房记录*/
+.see-house{
+    margin:0;
+}
+.see-house > .row-one{
+    height:45px;
+    line-height: 45px;
+    border-top:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+    margin-top:10px;
+    padding-left: 10px;
+}
+.see-house .row-two{
+    height:45px;
+    line-height: 45px;
+    border-bottom:1px solid #ccc;
+    padding-left: 10px;
+}
+/*第六部分 位置*/
+.location>div:last-child>a{
+    display: block;
+    text-align: right;
+}
+.location .col-xs-10{
+    padding-left:0px;
+}
+
+.xiangsi-style{
+    margin:0px;
+    height:100px;
+    padding:15px;
+    border-bottom:1px solid #ccc;
+}
+.xiangsi-style>div:last-child{
+   border-top:0px;
+}
+.xiangsi-style .row-two{
+    margin-top: 10px;
+}
+.last{
+    height:100px;
+}
+/*固定经纪行*/
+.row-fixed{
+    position:fixed;
+    left:0;
+    bottom:0;
+    height:80px;
+    width:100%;
+    padding:15px 5px;
+    margin-left:0;
+    border-bottom: 1px solid #ccc;
+    border-top:1px solid #ccc;
+    background-color:#fff;
+}
+.row-fixed img{
+    width:30px;
+    height:40px;
+}
+.row-fixed .phone{
+    text-align: right;
+    top:10px;
+}
+

@@ -1,0 +1,122 @@
+/*链家网首页样式*/
+
+/*头部*/
+.header{
+    height:254px;
+    position:relative;
+    background:url("../images/bg1.jpg") no-repeat;
+    -webkit-background-size:cover;
+    background-size:cover;
+    -webkit-background-origin:border-box;
+    background-origin:border-box;
+}
+.header > .row-one{
+    margin:12px -15px;
+}
+.header > .row-one .label{
+    background:#3d3d3d;
+    padding:5px 10px;
+    border-radius:10px;
+    margin-top:10px;
+    display: inline-block;
+}
+.header > .row-one > .options{
+    text-align: center;
+    color:#fff;
+}
+.header > .row-one > .options > ul{
+    margin-left:10px;
+}
+.header > .row-one > .options > ul a{
+    font-size:10px;
+    font-weight: 100;
+    color:#fff;
+}
+/*第二行*/
+.header .row-two{
+    color:#fff;
+    text-align:center;
+}
+.header .row-two > h1{
+    font-weight: bolder;
+}
+/*第三行*/
+.header > .row-three{
+    position: absolute;
+    bottom:12px;
+}
+.header > .row-three > input{
+    height:100%;
+}
+/*第二部分*/
+.buys{
+    margin:0;
+    height:120px;
+    border-bottom: 1px solid #c5c5c5;
+}
+.buys ul{
+    width:51px;
+    margin:20px auto 0;
+    text-align: center;
+}
+.buys ul  li:last-child{
+    margin-top: 8px;
+}
+/*第三部分轮播*/
+.carousels{
+    margin:0px;
+    padding:14px 0 10px;
+    background: #f4f4f4;
+    border:1px solid #c5c5c5;
+}
+.carousels .item > img{
+    width:100%;
+}
+/*第四部分-热门房源*/
+.hot-rooms > .hot-header,
+.hot-rooms > .hot-more{
+    height: 48px;
+    line-height: 48px;
+    padding-left:15px;
+    border-bottom:1px solid #c5c5c5;
+}
+.hot-rooms > .hot-more{
+    text-align:center;
+}
+.hot-rooms > .hot-list > .media{
+    padding:14px 11px;
+    border-bottom:1px solid #c5c5c5;
+    position:relative;
+}
+.hot-rooms > .hot-list .media-heading{
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+.hot-rooms > .hot-list .media-body > p{
+    margin:0;
+    font-size:12px;
+}
+.hot-rooms > .hot-list .price{
+   position: absolute;
+    color:#EB6744;
+    right:5px;
+    top:30px;
+}
+/*第五部分footer*/
+.footer{
+    height: 48px;
+    line-height: 48px;
+    margin-top:5px;
+    background-color:#828285;
+}
+.footer>.row{
+    margin:0;
+    padding-left: 30px;
+}
+.footer>.row>div{
+    color:#fff;
+    font-size: 10px;
+}
+
+
+
